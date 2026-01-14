@@ -4,7 +4,7 @@ package com.LeetCode;
 
 public class Problem3453 {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Solution3453 sol = new Solution3453();
 
         // Example 1: Squares that don't overlap horizontally
         int[][] squares1 = {{0, 0, 1}, {2, 2, 1}};
@@ -16,7 +16,7 @@ public class Problem3453 {
     }
 }
 
-class Solution {
+class Solution3453 {
     public double separateSquares(int[][] squares) {
         double minY = Double.MAX_VALUE;
         double maxY = Double.MIN_VALUE;
